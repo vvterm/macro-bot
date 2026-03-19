@@ -3,8 +3,8 @@ import yfinance as yf
 import telebot
 
 # ===== CONFIG =====
-TOKEN = "YOUR_TOKEN"
-CHAT_ID = "YOUR_CHAT_ID"
+TOKEN = os.getenv("TOKEN")
+CHAT_ID = CHAT_ID = os.getenv("CHAT_ID")
 
 bot = telebot.TeleBot(TOKEN)
 
