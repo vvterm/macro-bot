@@ -4,7 +4,7 @@ import telebot
 
 # ===== CONFIG =====
 TOKEN = os.getenv("TOKEN")
-CHAT_ID = CHAT_ID = os.getenv("CHAT_ID")
+CHAT_ID = os.getenv("CHAT_ID")
 
 bot = telebot.TeleBot(TOKEN)
 
